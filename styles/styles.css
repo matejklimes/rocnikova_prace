@@ -1,0 +1,225 @@
+header {
+    background-color: rgb(255, 255, 255);
+}
+a {
+    color: black;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#navbar {
+    text-align: right;
+    }
+#navbar a {
+    padding: 0 55px 0 55px;
+    }
+#navbar a:hover{
+    text-decoration: none;
+    }
+.padding {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.padding-dole {
+    margin-bottom: 65px;
+}
+.obrazek-text-vpravo {
+    float: right;
+}
+.obrazek-text-vlevo {
+    float: left;
+}
+
+.input-group-text {
+    border: none;
+}
+th, td {
+    text-align: center;
+}
+.border-tabulka {
+    border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.button {
+    background-color: rgb(62, 128, 204);
+    border: none;
+    color: black;
+    padding: 18px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    background-color: rgb(105, 145, 192);
+    color: black;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .padding-left-gallery {
+    padding-left: 15px;
+  }
+
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.45%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .margin-right-arrow {
+    margin-right: 15px;
+  }
+
+  .margin-top-arrows {
+    margin-top: 90px;
+  }
+
+  .flex-50 {
+    flex: 50%;
+  }
+
+  .projekt-nadpis-padding {
+    padding-bottom: 25px; 
+    padding-top: 18px;
+  }
+
+  .projekt-padding {
+    width: 400px;
+  }
+  .padding-projekt-dva {
+    padding-top: 70px; 
+    padding-bottom: 60px;
+  }
+  .padding-top-projekt {
+    padding-top: 70px;
+  }
+  .zaklad-lokalita {
+    background-image: url('../images/pozadi_lokalita4.jpg'); 
+    padding-top: 60px; 
+    margin-bottom: 60px;
+  }
+  .lokalita-text {
+    padding-bottom: 101px; 
+    padding-top: 60px;
+  }
+  .galerie-prvnifotka {
+    padding-top: 65px; 
+    padding-bottom: 50px;
+  }
+  .galerie-fotky {
+    width:100%
+  }
+  .galerie-mini-prvnifotka {
+    height: 105px; 
+    width: 172px;
+  }
+  .galerie-mini-fotky {
+    width:100%
+  }
+  .cenik-padding {
+    padding-top: 60px; 
+    padding-bottom: 80px;
+  }
+  .cenik-dodatky {
+    font-size: small;
+  }
+  .formular-padding {
+    padding-bottom: 80px;
+  }
+  .formular-pozadi {
+    background-color: rgb(228, 228, 228);
+  }
+  .formular-nadpis-padding {
+    padding-top: 60px; 
+    padding-bottom: 5px;
+  }
+  .kontakt-padding {
+    padding-top: 90px;
+  }
+  .kontakt-flex-sirka {
+    width: 50%;
+  }
